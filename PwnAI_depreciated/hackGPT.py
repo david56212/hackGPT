@@ -27,7 +27,7 @@ import datetime
 
 load_dotenv(".env")
 apiToken = os.environ.get('OPENAI_TOKEN')
-openai.api_key = apiToken
+openai.api_key = sk-tVZZG1E93jmn3F31IC3H8DTgQehHi9amP_whYMJx2JT3BlbkFJkSUcbfP-1Ji-as3HWKv9YZzttU60flgVVeLi2Gp1YA
 
 if 'OPENAI_TOKEN' in os.environ:
    pass
